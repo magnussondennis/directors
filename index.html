@@ -3,25 +3,60 @@
 <head>
   <title>Akira Kurosawa Movie Ratings</title>
   <style>
+    body {
+      font-family: Noto Sans, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      line-height: 1.6;
+    }
+
     .director {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      padding: 20px;
     }
+
     .director h2 {
-      margin-bottom: 5px;
+      margin: 0;
+      font-size: 24px;
+      color: #333333;
     }
+
     .movies {
       margin-left: 20px;
+      padding-top: 10px;
     }
+
     .rating {
       margin-bottom: 5px;
+      color: #555555;
     }
+
     .rating strong {
       margin-right: 5px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
- <div class="director">
+  <div class="director">
+  <h2>Howard Hawks</h2>
+  <div class="movies">
+    <div class="rating">
+      <strong>4 stars:</strong> Rio Bravo (1959), Only Angels Have Wings (1939)
+    </div>
+    <div class="rating">
+      <strong>3 stars:</strong> His Girl Friday (1940), Bringing Up Baby (1938), The Big Sleep (1946), To Have and Have Not (1944), Red River (1948)
+    </div>
+    <div class="rating">
+      <strong>2 stars:</strong> Gentlemen Prefer Blondes (1953), Scarface (1932)
+    </div>
+  </div>
+</div>
+  
+  <div class="director">
     <h2>Akira Kurosawa</h2>
     <div class="movies">
       <div class="rating">
@@ -36,23 +71,21 @@
       <div class="rating">
         <strong>1 star:</strong> The Men Who Tread on the Tiger’s Tail (1945), Song of the Horse (1970)
       </div>
-</div>
-
-<div class="director">
-  <h2>Orson Welles</h2>
-  <div class="movies">
-    <div class="rating">
-      <strong>4 stars:</strong> Citizen Kane (1941), Touch of Evil (1958)
-    </div>
-    <div class="rating">
-      <strong>3 stars:</strong> The Lady from Shanghai (1947), The Magnificent Ambersons (1942), Chimes at Midnight (1965), Mr. Arkadin (1955)
-    </div>
-    <div class="rating">
-      <strong>2 stars:</strong>  The Trial (1962)
     </div>
   </div>
-</div>
 
+  <div class="director">
+    <h2>Orson Welles</h2>
+    <div class="movies">
+      <div class="rating">
+        <strong>4 stars:</strong> Citizen Kane (1941), Touch of Evil (1958)
+      </div>
+      <div class="rating">
+        <strong>3 stars:</strong> The Lady from Shanghai (1947), The Magnificent Ambersons (1942), Chimes at Midnight (1965), Mr. Arkadin (1955)
+      </div>
+      <div class="rating">
+        <strong>2 stars:</strong> The Trial (1962)
+      </div>
 
 </body>
 </html>
